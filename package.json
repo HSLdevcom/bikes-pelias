@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/hsldevcom/bikes-pelias",
   "pre-commit": [
-    "lint",
-    "test"
+    "lint"
   ]
 }
