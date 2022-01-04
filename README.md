@@ -1,6 +1,6 @@
 # Bike station import pipeline
 
-A tool for importing bike rental stations into Pelias.
+A tool for importing bike rental stations from OpenTripPlanner api into Pelias.
 
 ## Install dependencies
 
