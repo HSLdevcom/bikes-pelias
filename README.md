@@ -12,5 +12,5 @@ yarn install
 
 Run the data import using the given OTP data source url:
 
-`node import.js https://dev-api.digitransit.fi/routing/v1/routers/finland/index/graphql`
+`node import.js https://dev-api.digitransit.fi/routing/v2/routers/finland/index/graphql`
 
