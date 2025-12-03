@@ -13,6 +13,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install Yarn
+        run: corepack preparer yarn@stable --activate
+      - name: Activate Yarn
+        run: yarn set version stable
       - name: Generate SBOM
         run: yarn dlx -q @cyclonedx/yarn-plugin-cyclonedx@2.0.0 --output-file ${{ github.repository }}-${{ github.sha }}.json
 
