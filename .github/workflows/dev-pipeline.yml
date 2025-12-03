@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Yarn
-        run: corepack preparer yarn@stable --activate
+        run: corepack prepare yarn@stable --activate
       - name: Activate Yarn
         run: yarn set version stable
       - name: Generate SBOM
