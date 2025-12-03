@@ -2,3 +2,5 @@
 .jshintignore
 .jshintrc
 node_modules
+.yarn
+.yarnrc.yml
