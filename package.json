@@ -37,5 +37,11 @@
   "homepage": "https://github.com/hsldevcom/bikes-pelias",
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "overrides": {
+    "better-sqlite3": "^13.0.3"
+  },
+  "resolutions": {
+    "better-sqlite3": "^13.0.3"
+  }
 }
