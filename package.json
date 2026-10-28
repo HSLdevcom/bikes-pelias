@@ -2,6 +2,7 @@
   "name": "bikes-pelias",
   "version": "0.0.0",
   "description": "Pelias import pipeline for OTP bike stations.",
+  "packageManager": "yarn@4.13.0",
   "main": "import.js",
   "dependencies": {
     "JSONStream": "^1.3.5",
